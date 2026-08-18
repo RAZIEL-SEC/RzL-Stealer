@@ -4,7 +4,7 @@
 
 <h1 align="center">RzL-Stealer</h1>
 
-<h3 align="center">Um malware Stealer para testes de penetração com persistencia ativa.</h3>
+<h2 align="center">Um malware Stealer para testes de penetração com persistencia ativa.</h2>
 
 <br>
 
