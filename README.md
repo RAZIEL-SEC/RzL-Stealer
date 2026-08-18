@@ -6,7 +6,7 @@
 
 <h3 align="center">Um malware Stealer para testes de penetração com persistencia ativa.</h3>
 <br>
-<h4 align="left"> Este projeto é um malware desenvolvido para fins de estudo e testes de invasão. Possui persistência e captura informações como:
+<h4> Este projeto é um malware desenvolvido para fins de estudo e testes de invasão. Possui persistência e captura informações como:
   informações de antivírus, 
   histórico de navegação, 
   cartões, 
