@@ -8,7 +8,7 @@
 
 <br>
 
-<h4 align="left"> Este projeto é um malware desenvolvido para fins de estudo e testes controlados.<br> Possui persistência e captura informações como:<br><br> 🔹 Informações de antivírus<br> 🔹 Histórico de navegação<br> 🔹 Cartões<br> 🔹 Cookies<br> 🔹 Contas do Discord<br> 🔹 Histórico de downloads<br> 🔹 Extensões de navegadores<br> 🔹 Senhas salvas<br> 🔹 Contas do Roblox<br> 🔹 Informações do sistema<br><br> Os resultados coletados são enviados através de um webhook do Discord para análise. </h4>
+<h4 align="left"> Este projeto é um malware desenvolvido para fins de estudo e testes controlados.<br> Possui persistência e captura informações como:<br><br> ℹ️ Informações de antivírus<br> 📃 Histórico de navegação<br> 💳 Cartões<br> 🍪 Cookies<br> 👤 Contas do Discord<br> ⬇️ Histórico de downloads<br> 🧩 Extensões de navegadores<br> 🔑 Senhas salvas<br> 👤 Contas do Roblox<br> ℹ️ Informações do sistema<br><br> Os resultados coletados são enviados através de um webhook do Discord para análise. </h4>
 
 <div align="center"> 
   <img style="width: 100%;" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=onedark" /> 
