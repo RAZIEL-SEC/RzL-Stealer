@@ -6,7 +6,7 @@
 
 <h3 align="center">Um malware Stealer para testes de penetração com persistencia ativa.</h3>
 <br>
-<h4 align="center"> Este projeto é um malware desenvolvido para fins de estudo e testes de invasão. Possui persistência e captura informações como:
+<h4 align="left"> Este projeto é um malware desenvolvido para fins de estudo e testes de invasão. Possui persistência e captura informações como:
   informações de antivírus, histórico de navegação, cartões, cookies, contas do Discord, histórico de downloads, extensões de navegadores, senhas salvas, contas do Roblox e informações do sistema. Os resultados coletados são enviados através de um webhook do Discord para análise.</h4>
 
 <div align="center"> 
