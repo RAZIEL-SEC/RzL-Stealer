@@ -1,4 +1,4 @@
-# 🚀 **RzL-Stealer**
+# 🪝 **RzL-Stealer**
 
 ---
 
