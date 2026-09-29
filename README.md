@@ -3,6 +3,7 @@
 ---
 
 ## **Um malware Stealer para testes de penetração com persistencia ativa.**
+## ** Uso integrado com as seguintes ferramentas: 'https://github.com/RAZIEL-SEC/RzL-CrypTool.git' e 'https://github.com/RAZIEL-SEC/Builder-to-CrypTool.git'
 
 ---
 
