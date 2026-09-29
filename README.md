@@ -4,7 +4,8 @@
 
 ## **Um malware Stealer para testes de penetração com persistencia ativa.**
 ## **Uso integrado com as seguintes ferramentas:
-Obfuscador: `https://github.com/RAZIEL-SEC/RzL-CrypTool.git` e Compilador de código obfuscado: `https://github.com/RAZIEL-SEC/Builder-to-CrypTool.git`
+Obfuscador: `https://github.com/RAZIEL-SEC/RzL-CrypTool.git` 
+Compilador de código obfuscado: `https://github.com/RAZIEL-SEC/Builder-to-CrypTool.git`
 
 ---
 
