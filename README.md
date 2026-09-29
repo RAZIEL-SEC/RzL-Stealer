@@ -1,25 +1,63 @@
-<div> 
-  <img style="width: 100%;" align="center" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&theme=onedark" /> 
-</div>
+# 🚀 CrypToolBuild
 
-<h1 align="center">RzL-Stealer</h1>
+O **CrypTool Build** é uma interface de linha de comando (CLI) avançada projetada para automatizar o processo de compilação, ofuscação e empacotamento de scripts Python. Ele foi desenvolvido para transformar scripts complexos em executáveis robustos, permitindo o controle total sobre o comportamento do runtime.
 
-<h2 align="center">Um malware Stealer para testes de penetração com persistencia ativa.</h2>
+## ✨ Funcionalidades Principais
 
-<br>
+- **Interface CLI Interativa:** Menu intuitivo para facilitar o fluxo de trabalho sem necessidade de editar código.
+- **Modos de Execução Customizáveis:**
+  - 🛠️ **Modo DEBUG (Console):** Mantém a janela do terminal aberta. Ideal para desenvolvedores testarem o comportamento do payload e visualizarem logs de erro em tempo real.
+  - 🕵️ **Modo STEALTH (Background):** Remove a necessidade de console. O executável roda silenciosamente em segundo plano, ideal para payloads de produção.
+- **Gerenciamento de Dependências:** Automatiza o empacotamento de bibliotecas pesadas e complexas (como **`cryptography`** e **`opencv`**) através de flags de injeção automática.
+- **Limpeza Automática de Workspace:** Gerencia pastas de build (**`build/`**, **`dist/`**) para garantir compilações limpas e evitar conflitos de cache.
 
-<h3 align="left"> Este projeto é um malware desenvolvido para fins de estudo e testes controlados.<br> Possui persistência e captura informações como:<br><br> 🦠 Informações de antivírus<br> 📃 Histórico de navegação<br> 💳 Cartões<br> 🍪 Cookies<br> 👤 Contas do Discord<br> ⬇️ Histórico de downloads<br> 🧩 Extensões de navegadores<br> 🔑 Senhas salvas<br> 👝 Carteiras de Criptomoedas<br> 👤 Contas do Roblox<br> ℹ️ Informações do sistema<br><br> Os resultados coletados são enviados através de um webhook do Discord com um link para o download do arquivo compactado. </h3>
+## 📋 Requisitos
 
-<div align="center"> 
-  <img style="width: 100%;" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=onedark" /> 
-</div>
+Para utilizar o Engine, você deve configurar um ambiente de desenvolvimento controlado:
 
-<br>
+- **Python:** **`3.10`** ou superior.
+- **Ambiente:** Recomenda-se o uso de um Ambiente Virtual (**`venv`**) para isolar as dependências.
+- **Sistema Operacional:** Windows (Otimizado para ambientes Windows).
 
-<div align="center"> 
-  <img height="350" src="https://i.pinimg.com/originals/e1/86/a9/e186a9999fafbc7041ca9b06156c39ba.gif" /> 
-</div>
+## 🛠️ Instalação e Uso
 
-<div align="center"> 
-  <img style="width: 100%;" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&reversal=false&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=onedark" /> 
-</div>
+### 1. Clonar e Preparar o Ambiente
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/seu-projeto.git
+cd seu-projeto
+
+# Crie e ative sua venv
+python -m venv venv
+.\venv\Scripts\activate
+
+# Instale as dependências necessárias
+pip install -r requirements.txt
+```
+
+### 2. Executando o Engine
+
+Com a venv ativa e o seu código alvo na pasta, basta rodar:
+
+```bash
+python Professional_Builder_Pro.py
+```
+
+### 3. Fluxo de Trabalho Recomendado
+
+1. **Configurar Arquivo:** Defina o script **`.py`** que será o alvo da compilação.
+2. **Escolher Modo:**
+   - Use **`Modo DEBUG`** para garantir que o seu código está funcionando.
+   - Use **`Modo STEALTH`** para gerar a versão final para distribuição.
+3. **Compilar:** Inicie o processo de build e aguarde a conclusão.
+4. **Resultado:** O executável final será gerado na pasta **`dist/`**.
+
+## 📦 Dependências do Sistema
+
+O Engine gerencia automaticamente o empacotamento de:
+
+- **`cryptography`** (Criptografia de alto nível)
+- **`cv2`** (OpenCV - Processamento de imagem)
+- **`win32crypt`** (Integração com APIs Windows)
+- **`requests`**, **`psutil`**, **`browser_cookie3`** (Dependências de rede e sistema)
