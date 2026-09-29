@@ -10,7 +10,7 @@
 
 Este projeto é um malware desenvolvido para fins de estudo e testes controlados.
 
-Possui persistência e captura informações como:
+Possui persistência contra reboot e perca de conexão de internet e captura informações como:
 
 - 🦠 **Informações de antivírus**
 - 📃 **Histórico de navegação**
